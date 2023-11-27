@@ -6,9 +6,9 @@ typedef struct node {
     DATA d;
     struct node *left;
     struct node *right;
-} NODE;
+} Node;
 
-typedef NODE *BTREE;
+typedef Node *BTREE;
 
 // traverse tree inorder
 void inorder(BTREE root) {
@@ -36,7 +36,7 @@ void postorder(BTREE root) {
 }
 
 BTREE new_node(void) {
-    return (malloc(sizeof(NODE)));
+    return (malloc(sizeof(Node)));
 }
 
 BTREE init_node(DATA d1, BTREE p1, BTREE p2) {
