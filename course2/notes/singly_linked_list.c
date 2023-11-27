@@ -49,7 +49,7 @@ void print_list_recursive(list *h, char *title) {
 }
 
 int main() {
-    list list_of_int;
+    // list list_of_int;
     list *head = NULL;
     // head = malloc(sizeof(list));
     int data[6] = {2, 3, 5, 7, 8, 9};
