@@ -1,0 +1,3 @@
+There are 4 integers
+Avg: 11.7500
+Max: 15
