@@ -17,6 +17,7 @@ int main(void) {
         sum += atoi(weight);
         num_seals++;
     }
+    fclose(fp);
 
     avg = sum / num_seals;
     printf("%.2f\n", avg);
